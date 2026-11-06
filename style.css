@@ -156,3 +156,9 @@ hr.solid {
     color: var(--color-1);
     border: var(--color-5);
 }
+
+/* 
+1. Conseguir utilizar com equilíbrio o 'width', 'height' e 'margin' de forma a customizar a posição dos elementos
+2. Não por o display: block e inline block ao 'centrar' imagens
+3. 'href' serve para referenciar uma hiperligação para um URL/caminho/site
+*/
