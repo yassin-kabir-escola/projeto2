@@ -70,6 +70,16 @@ header td {
     text-align: center;
 }
 
+.wolfenstein{
+    font-family: wolfenstein;
+    font-size: xx-large;
+}
+
+.castle{
+    font-family: castle;
+    font-size: xx-large;
+}
+
 header td:hover{
     background-color: var(--color-2);
 }
@@ -105,4 +115,44 @@ hr.solid {
 #body-div video{
     display: block;
     margin: 3rem auto;
+}
+
+#body-div .paragraph{
+    text-align: justify;
+    font-size: 1.3rem;
+    background-color: var(--color-5);
+    color: var(--color-4);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#body-div a{
+    color: var(--color-1);
+}
+
+#body-div a:hover{
+    color: var(--color-2);
+}
+
+.image-table{
+    margin: 0 auto;
+    border: solid 3px var(--color-4);
+}
+
+.image-table img{
+    width: 10rem;
+    display: block;
+    margin: auto;
+    height: auto;
+    border: solid 3px var(--color-2);
+}
+
+.image-table td{
+    border-right: solid 5px var(--color-4);
+}
+
+.image-table th{
+    background-color: var(--color-4);
+    color: var(--color-1);
+    border: var(--color-5);
 }
